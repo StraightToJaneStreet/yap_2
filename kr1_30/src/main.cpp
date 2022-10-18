@@ -3,7 +3,7 @@
 #include <vector>
 #include <utility>
 
-struct Employee {
+struct Toy {
   char* family;
   unsigned int department;
   unsigned int year_of_birth;
@@ -15,18 +15,18 @@ struct DepartmentPayload {
 };
 
 int main() {
-  std::vector<Employee> employees = {
-    Employee { new char[] { "Empl1" }, 1, 1991 },
-    Employee { new char[] { "Empl2" }, 2, 1992 },
-    Employee { new char[] { "Empl3" }, 1, 1993 },
-    Employee { new char[] { "Empl4" }, 2, 1994 },
-    Employee { new char[] { "Empl5" }, 1, 1995 },
-    Employee { new char[] { "Empl6" }, 2, 1996 },
-    Employee { new char[] { "Empl7" }, 1, 1997 },
-    Employee { new char[] { "Empl8" }, 2, 1998 },
-    Employee { new char[] { "Empl9" }, 1, 1999 },
-    Employee { new char[] { "Empl10" }, 3, 2000 },
-    Employee { new char[] { "Empl11" }, 3, 2001 },
+  std::vector<Toy> employees = {
+    Toy { new char[] { "Empl1" }, 1, 1991 },
+    Toy { new char[] { "Empl2" }, 2, 1992 },
+    Toy { new char[] { "Empl3" }, 1, 1993 },
+    Toy { new char[] { "Empl4" }, 2, 1994 },
+    Toy { new char[] { "Empl5" }, 1, 1995 },
+    Toy { new char[] { "Empl6" }, 2, 1996 },
+    Toy { new char[] { "Empl7" }, 1, 1997 },
+    Toy { new char[] { "Empl8" }, 2, 1998 },
+    Toy { new char[] { "Empl9" }, 1, 1999 },
+    Toy { new char[] { "Empl10" }, 3, 2000 },
+    Toy { new char[] { "Empl11" }, 3, 2001 },
   };
 
 

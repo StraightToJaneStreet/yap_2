@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 
-project(ipr1_30)
-
+project(kr1_29)
 
 add_executable(main src/main.cpp)
 
