@@ -2,6 +2,6 @@ cmake_minimum_required(VERSION 3.20)
 
 project(kr2_29)
 
-add_executable(main src/main.cpp)
+add_executable(main src/main.c)
 
 set_property(TARGET main PROPERTY CXX_STANDARD 20)

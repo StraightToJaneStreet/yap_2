@@ -8,7 +8,6 @@
 struct Toy {
   std::string name;
   unsigned int price;
-
 };
 
 std::ostream &operator<< (std::ostream &out, const Toy &toy) {
