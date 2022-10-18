@@ -18,6 +18,7 @@ int main() {
     size_t position_shift = 0;
 
     size_t source_length = strlen(source);
+
     int iterations_counter = 0;
 
     char* position = strstr(source, TARGET_SUBSTRING);
